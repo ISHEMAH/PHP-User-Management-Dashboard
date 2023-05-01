@@ -165,3 +165,27 @@ body>a{
     display: flex;
     flex-direction: row;
 }
+.export{
+    height: 35px;
+    width: 150px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    align-items: center;
+    color: white;
+    background-color: rgb(19, 0, 128);
+    border: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    gap: 3px; 
+    margin-top: 30px;
+}
+a{
+    text-decoration: none;
+}
+.export:hover{
+    transform: scale(1.1);
+}

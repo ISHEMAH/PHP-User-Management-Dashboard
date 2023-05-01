@@ -73,6 +73,6 @@ include 'connect.php';
 
     </table>
 
-        <a href="generate_pdf.php"><button>Export PDF</button></a>
+        <a href="generate_pdf.php"><button class="export">Export PDF</button></a>
 </body>
 </html>
