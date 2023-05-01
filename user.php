@@ -28,9 +28,10 @@ if(isset($_POST['submit'])){
 </head>
 <body>
     <div class="container">
+        <h2>Add user</h2>
         <form method="post">
             <label for="name">Name</label>
-            <input type="text" name="name" id="name">
+            <input type="text" name="name" id="name"require>
             <label for="email">Email</label>
             <input type="email" name="email" id="email">
             <label for="mobile">Tel</label>

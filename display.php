@@ -1,5 +1,6 @@
 <?php
 include 'connect.php';
+
 ?>
 
 <!DOCTYPE html>
@@ -61,6 +62,7 @@ include 'connect.php';
                           </svg>
                           Delete</button></a>
                         </td>
+                        </tr>
                         ';
                         
                     }
@@ -70,5 +72,7 @@ include 'connect.php';
         </tbody>
 
     </table>
+
+        <a href="generate_pdf.php"><button>Export PDF</button></a>
 </body>
 </html>
