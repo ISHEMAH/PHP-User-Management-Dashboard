@@ -66,16 +66,16 @@ form button:hover{
     width: 150px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-    align-self: center;
+    align-items: center;
     color: white;
     background-color: rgb(19, 0, 128);
     border: none;
     display: flex;
+    justify-content: center;
     flex-direction: row;
     border-radius: 10px;
     cursor: pointer;
     transition: all 0.3s ease;
-    justify-content: center;
     gap: 3px;
 }
 .display-header button:hover{
